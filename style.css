@@ -1,33 +1,33 @@
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #518794;
+  background-color: #92bcda;
   padding: 20px 40px;
-  color: #0e0d0d;
+  color: #130000;
 }
 
 h1 {
-  color: #1b1616;
+  color: #0069fc;
   text-align: center;
 }
 
 h2 {
-  color: #0a0a0a;
-  border-bottom: 2px solid #191a1b;
-  padding-bottom: 10px;
+  color: #000000;
+  border-bottom: 2px solid #1e3a60;
+  padding-bottom: 1px;
 }
 
 fieldset {
-  background-color: bisque;
-  border-radius: 8px;
+  background-color: #f1e6e6;
+  border-radius: 10px;
   padding: 20px;
   margin-bottom: 20px;
 }
 
 legend {
-  background-color: #d3d7da;
+  background-color: #076dfc;
   color: white;
-  padding: 5px 15;
-  border-radiius: 8xp;
+  padding: 4px 8px;
+  border-radius: 1px;
   font-weight: bold;
 }
 
@@ -36,7 +36,7 @@ label {
   margin-top: 15px;
   margin-bottom: 15px;
   font-weight: bold;
-  color: #3f0b921f;
+  color: #000000;
 }
 
 label.label-inline {
@@ -49,51 +49,51 @@ input[type="text"],
 input[type="email"] {
   width: 100%;
   padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+  border: 1px solid #000000;
+  border-radius: 1px;
   box-sizing: border-box;
 }
 
 select {
   width: 100%;
   padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+  border: 1px solid #000000;
+  border-radius: 1px;
   box-sizing: border-box;
 }
 
 button {
-  background-color: #4caf50;
-  color: white;
+  background-color: #ac1a1a;
+  color: rgb(24, 7, 7);
   padding: 10px 20px;
   border: none;
-  border-radius: 4px;
+  border-radius: 2px;
   cursor: pointer;
   font-size: 16px;
   font-weight: bold;
-  margin-top: 20px;
+  margin-top: 10px;
   width: 100%;
 }
 
 button:hover {
-  background-color: #238d28;
+  background-color: #d35400;
 }
 
 .tabla1 {
-  widht: 100%;
+  width: 100%;
   border-collapse: collapse;
-  background-color: #f2f2f2;
-  margin-top: 20px;
+  background-color: #e4dbdb;
+  margin-top: 10px;
 }
 
 .tabla1 th,
 .tabla1 td {
-  border: 1px solid #dddddd;
-  padding: 12px;
+  border: 1px solid #000000;
+  padding: 10px;
   text-align: left;
 }
 
 .tabla1 th {
-  background-color: #2c3e50;
+  background-color: #0854be;
   color: white;
 }
